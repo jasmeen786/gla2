@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .filters,
+  .sort {
+    display: flex;
+    align-items: center;
+  }
+  
+  .filters select,
+  .sort select {
+    margin-left: 10px;
+  }
+  
+  .product-card {
+    border: 1px seagreen;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .product-card h2 {
+    margin-top: 0;
+  }
+  
+  .product-card p {
+    margin: 5px 0;
+  }
+  
